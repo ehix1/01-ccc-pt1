@@ -1,0 +1,67 @@
+body {
+  font-family: "Bungee", cursive;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #7944e6;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  color: #7944e6;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #7944e6;
+}
+li a:hover {
+  color: #10fdff;
+}
+main img {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+main {
+  background-color: #ff00ff;
+}
+h1 {
+  margin: 0;
+  padding-left: 20px;
+}
+p {
+  margin: 0;
+  padding: 0 20px 20px 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  border: 5px #7944e6 solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  margin: 20px;
+  padding: 40px 10px;
+}
+section img {
+  width: 300px;
+}
+section a {
+  padding-top: 60px;
+}
+section a:hover {
+  color: #10fdff;
+}
